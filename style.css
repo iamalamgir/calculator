@@ -1,0 +1,45 @@
+/*****Calculator*****/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+form{
+    width: 250px;
+    background: #ddd;
+    padding: 30px 15px 15px 15px;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,.6);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,.6);
+}
+
+input[type="text"]{
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    font-size: 36px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+input[type="button"]{
+    width: 58px;
+    height: 55px;
+    background: #aaa;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    color: greenyellow;
+    background: #856488;
+    box-shadow: 0 0 10px #856488, 0 0 40px #856488, 0 0 80px #856488;
+}
+
+hr{
+    margin: 15px 0;
+}
